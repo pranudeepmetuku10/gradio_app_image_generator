@@ -25,11 +25,14 @@ mosaic-image-generator/
 │   ├── mosaic_generator.py     # Core logic for mosaic creation
 │   ├── utils.py                # Helper functions (color matching, etc.)
 │   ├── dataset_loader.py       # Loads and preprocesses tile images
+│
 ├── data/
 │   ├── tiles/                  # Folder containing tile images
 │   ├── target/                 # Folder for target images
+│
 ├── output/
 │   └── final_mosaic.png        # Saved mosaic results
+│
 ├── requirements.txt
 └── README.md
 
