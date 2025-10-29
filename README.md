@@ -20,22 +20,24 @@ A Python-based tool that generates mosaic art by recreating a target image using
 
 ## Structure
 
+## Project Structure
+```
 mosaic-image-generator/
 ├── src/
-│   ├── mosaic_generator.py     # Core logic for mosaic creation
-│   ├── utils.py                # Helper functions (color matching, etc.)
-│   ├── dataset_loader.py       # Loads and preprocesses tile images
+│   ├── mosaic_generator.py      — Core logic for mosaic creation
+│   ├── utils.py                 — Helper functions (color matching, etc.)
+│   └── dataset_loader.py        — Loads and preprocesses tile images
 │
 ├── data/
-│   ├── tiles/                  # Folder containing tile images
-│   ├── target/                 # Folder for target images
+│   ├── tiles/                   — Folder containing tile images
+│   └── target/                  — Folder for target images
 │
 ├── output/
-│   └── final_mosaic.png        # Saved mosaic results
+│   └── final_mosaic.png         — Saved mosaic results
 │
-├── requirements.txt
-└── README.md
-
+├── requirements.txt             — Dependencies
+└── README.md                    — Documentation
+```
 ## Installation
 
 Clone the repository and install dependencies:
