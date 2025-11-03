@@ -1,5 +1,10 @@
 # Mosaic Image Generator
 
+## Link:
+```
+https://huggingface.co/spaces/pranudeep555/Image-Mosaic-Generator?logs=container
+```
+
 A Python-based tool that generates mosaic art by recreating a target image using a grid of smaller tile images (from datasets such as CIFAR-100, custom folders, or user-selected collections).
 
 ## Features
